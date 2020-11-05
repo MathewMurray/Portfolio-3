@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Componenet} from 'react'
+import {Route, Switch} from 'react-router-dom'
+import Header from './../header/header'
+import AboutRoute from './../routes/about-route'
+import ContextRoute from './../routes/contact-route'
+import ProjectsRoute from './../routes/projects-route'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Componenet {
+  render(){
+    return (
+      <div>
+        <Header />
+      </div>
+    )
+  }
 }
-
-export default App;
