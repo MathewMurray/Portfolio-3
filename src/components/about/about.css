@@ -1,0 +1,30 @@
+.about_wrapper{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about img,.profile_info,.profile_tech,.profile_other{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  margin:auto;
+  background-image: linear-gradient(184deg,#858585, #272830);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about img{
+  border-radius: 9px;
+  text-align: -webkit-center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media all and ( min-width:600px){
+  .about_wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .about img,.profile_info,.profile_tech,.profile_other{
+    flex: 1 1;
+    width: 90%;
+  }
+}
