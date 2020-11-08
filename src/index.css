@@ -2,13 +2,9 @@ body {
   margin:0;
   padding:10px;
   background-image: url("./components/images/shattered-island.gif");
-  -ms-overflow-style:none;
-  scrollbar-width: none;
   color: azure;
 }
-body::-webkit-scrollbar{
-  display:none;
-}
+
 h2, h3 {
   text-align: center;
 }

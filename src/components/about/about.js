@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import profile from '../images/profile.jpg'
 import './about.css'
+import {Link} from 'react-router-dom'
 
 export default class About extends Component {
   render(){
@@ -12,17 +13,18 @@ export default class About extends Component {
           </div>
           <div className="profile_info">
             <h1>Who am I?</h1>
-            <p>I'm Mathew Murray, a web developer hailing from Lancaster
-              Pa. Currently I live in the sunny southern shores of Palm Bay,
+            <p>I'm Mathew Murray, a web developer hailing from Lancaster,
+              PA. Currently I live in the sunny southern shores of Palm Bay,
               Florida.</p>
-            <p>While studying with Thinkful's engineering imersion program,
-              i designed Mobile first web based applications. A partial look
-              at these applications can be found in my projects.
+            <p>While studying with Thinkful's Engineering Immersion program,
+              I designed mobile-first web based applications. For examples of my work,
+              please check out my <Link to='/projects'>Projects page</Link>.
             </p>
           </div>
         </div>
         <div className="about_wrapper">
           <div className="profile_tech">
+            <h2>Experience:</h2>
             <p>I have experience in the following tech stacks:</p>
               <ul>
                 <li>PostgreSQL</li>
@@ -37,11 +39,21 @@ export default class About extends Component {
               </ul>
             </div>
             <div className="profile_other">
-              <p>I an a nerd at heart with a passion for table top games,
-                video games and movies of all kinds.</p>
-              <p>If you're looking for a fresh set of eyes for your project
-                or another member for you're team, please feel free to contact me!
+              <h2>About myself:</h2>
+              <p>What drew me to the web design field is the constantly evolving nature of technology.
+                My first experience with web design and computer programing was in 2003, with basic C++, CSS and HTML.
+                From that first programing course at Penn Manor, I was hooked.<br/>
+                After highschool, I've had to overcome many hardships that have given me real world experience.
+                Now I'm ready to move forward. I'm ready to apply my personal experience along
+                with my passion for all things technology into a career I can be proud of. 
               </p>
+              <p>Aside from web development, I'm a huge nerd who enjoys:</p>
+              <ul>
+                <li>Table top RPGs</li>
+                <li>Trading card games</li>
+                <li>Movies of all kinds</li>
+              </ul>
+              <p>So if you're looking for a team player with passion and drive, please feel free to <Link to='/contact'>contact me!</Link></p>
             </div>
           </div>
       </div>
