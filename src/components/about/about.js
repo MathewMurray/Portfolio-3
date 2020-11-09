@@ -13,12 +13,12 @@ export default class About extends Component {
           </div>
           <div className="profile_info">
             <h1>Who am I?</h1>
-            <p>I'm Mathew Murray, a web developer hailing from Lancaster,
-              PA. Currently I live in the sunny southern shores of Palm Bay,
-              Florida.</p>
+            <p>I'm Mathew Murray, a web developer hailing from Lancaster, PA.
+              Currently, I live on the sunny southern shores of Palm Bay, Florida.
+              </p>
             <p>While studying with Thinkful's Engineering Immersion program,
               I designed mobile-first web based applications. For examples of my work,
-              please check out my <Link to='/projects'>Projects page</Link>.
+              please check out my <Link to='/projects'>Project page</Link>.
             </p>
           </div>
         </div>
@@ -40,16 +40,16 @@ export default class About extends Component {
             </div>
             <div className="profile_other">
               <h2>About myself:</h2>
-              <p>What drew me to the web design field is the constantly evolving nature of technology.
-                My first experience with web design and computer programing was in 2003, with basic C++, CSS and HTML.
-                From that first programing course at Penn Manor, I was hooked.<br/>
-                After highschool, I've had to overcome many hardships that have given me real world experience.
-                Now I'm ready to move forward. I'm ready to apply my personal experience along
-                with my passion for all things technology into a career I can be proud of. 
+              <p>What drew me to the web design field is the constantly evolving nature of technology. 
+              My first experience with web design and computer programming was in 2003, with basic C++, CSS, and HTML. 
+              From that first programming course at Penn Manor, I was hooked.<br/> 
+              After high school, I've had to overcome many hardships that have given me real world experience. 
+              Now I'm ready to move forward. I'm ready to apply my personal experience along with my passion for all 
+              things technology into a career I can be proud of. 
               </p>
               <p>Aside from web development, I'm a huge nerd who enjoys:</p>
               <ul>
-                <li>Table top RPGs</li>
+                <li>Tabletop RPGs</li>
                 <li>Trading card games</li>
                 <li>Movies of all kinds</li>
               </ul>
